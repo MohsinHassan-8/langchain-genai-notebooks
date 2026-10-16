@@ -1,0 +1,30 @@
+{
+       "title" : "Review",
+       "type" : "Object",
+       "properties" : {
+              "key_themes" : {
+                     "type" : "array",
+                     "items" : {
+                            "type" : "string"
+                     },
+                     "description" : "Write all key themes"
+              },
+              "summary" : {
+                     "type" : "string",
+                     "description" : "summary of review"
+              },
+              "sentiment" : {
+                     "type" : "string",
+                     "enum" : ["pos" , "neg"],
+                     "description" : "Sentiment of review"
+              },
+              "pros" : {
+                     "type" : ["array" , "null"],
+                     "items" : {
+                            "type" : "string"
+                     },
+                     "description" : "Write all pros"
+              }
+       },
+       "required" : ["key_themes","sentiment","sentiment"]
+}
