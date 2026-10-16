@@ -11,8 +11,7 @@ A topic-by-topic LangChain learning repo, ending in two RAG applications. Main L
 | 5 | `Dataloader`, `TextSplitters` | PDF, CSV, web, text and directory loaders; character, recursive, code-aware and semantic splitters |
 | 6 | `Vector_Store`, `Retrievers` | Chroma with metadata filtering; similarity, MMR, multi-query and compression retrievers |
 | 7 | `Tools`, `Tool_Calling` | Custom tools, tool-calling loops, an agent, a two-tool currency converter |
-| 8 | `RAG_Project_1` | YouTube-transcript RAG with FAISS, in four iterations |
-| 9 | `Youtube_Project` | The same RAG as a FastAPI backend with a simple web frontend |
+| 8 | `Youtube_Project` | YouTube-transcript RAG with FAISS, FastAPI backend and a simple web frontend |
 
 ## Setup
 
